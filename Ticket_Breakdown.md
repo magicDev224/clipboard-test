@@ -16,3 +16,36 @@ Based on the information given, break this ticket down into 2-5 individual ticke
 You will be graded on the level of detail in each ticket, the clarity of the execution plan within and between tickets, and the intelligibility of your language. You don't need to be a native English speaker, but please proof-read your work.
 
 ## Your Breakdown Here
+
+ticket 1
+
+title: Change save agents functionality
+generate agent_id and save it to the agents with new field.
+
+before we used agent table id directly, but now we want to generate custom ID for report.
+You can generate agent_id using uuid and save it to agent.
+
+If you have question, please leave comments.
+
+ticket 2
+title: Modify getShiftsByFacility function
+get agent_id in getShiftsByFacility function
+
+We added new agent_id in Agents to use it in report.
+
+You can check the SQL query or sequalize query in getShiftsByFacility function and can add agent_id in response.
+
+If you have question, please leave comments.
+
+ticket 3
+title: Modify generateReport function
+
+We added new agent_id in Agents to use it in report.
+
+You can get agent_id when you call list of Shifts.
+
+Please add them in report.
+
+If you have question, please leave comments.
+
+
